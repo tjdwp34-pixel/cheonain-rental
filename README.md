@@ -1,4 +1,4 @@
-# 천아인 렌탈 최신 통합 코드
+# 천아인 렌탈 최신 코드
 
 ## 실행
 ```bash
@@ -6,10 +6,12 @@ npm install
 npm run dev
 ```
 
-## Vercel 설정
-- Framework: Vite
-- Build Command: npm run build
-- Output Directory: dist
-
 ## 관리자 코드
 CHEONAIN2026
+
+## 반영 내용
+- 견적 보내기 품목 카드 크기 통일
+- 빈 공간은 여백으로 유지
+- 관리자 물품 관리에서 현재 단가 표시
+- 관리자 물품 관리에서 가격 수정 가능
+- 가격 수정 시 견적 산출에 즉시 반영
